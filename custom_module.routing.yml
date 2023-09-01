@@ -1,0 +1,15 @@
+custom_db_form:
+  path: '/customdbform/demo/services'
+  defaults:
+    _form: '\Drupal\custom_module\Form\customForm'
+    _title: 'Services and dependency injection'
+  requirements:
+    _permission: 'access content'
+
+welcome_Page.home_page:
+ path: '/home/page'
+ defaults:
+   _controller: '\Drupal\custom_module\Controller\CustomModuleController::homePage'
+   _title: 'WELCOME PAGE'
+ requirements:
+   _permission: 'access content'    

@@ -1,0 +1,4 @@
+services:
+  custom_module.dbinsert:
+    class: Drupal\custom_module\services\Db_insert
+    arguments: ['@database']
